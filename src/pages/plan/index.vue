@@ -1,9 +1,5 @@
 <template>
-    <div class="flex">
-        <el-button type="primary" @click="getUserInfo">
-            获取用户信息
-        </el-button>
-    </div>
+    <div>Ad-计划</div>
 </template>
 
 <script setup lang="ts">

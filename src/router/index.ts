@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import Home from '../pages/home/index.vue';
-import About from '../pages/about/index.vue';
+import Plan from '../pages/plan/index.vue';
+import Channel from '../pages/channel/index.vue';
 
 const routes = [
-    { path: '/', redirect: '/home' },
-    { path: '/home', component: Home },
-    { path: '/about', component: About },
+    { path: '/ad', redirect: '/plan' },
+    { path: '/ad/plan', component: Plan },
+    { path: '/ad/channel', component: Channel },
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('fe'),
     routes,
 });
 

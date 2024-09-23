@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>结算</h1>
-        <div>{{ centToYuan(1211) }}</div>
+        <div>Ad-渠道商</div>
     </div>
 </template>
 
